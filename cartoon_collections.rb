@@ -15,5 +15,5 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(array)
-  array.find {|word| word == "cheese" || "gouda" || "camembert"}
+  array.find {|word| word == "cheddar" || "gouda" || "camembert"}
 end
