@@ -16,5 +16,8 @@ end
 
 def find_the_cheese(array)
   if array.include?("cheese" || "gouda" || "chamembert")
-    array.find {|i| 
+    array.find {|i| i == "cheese" || "gouda" || "chamembert"}
+  else
+    return nil
+  end
 end
